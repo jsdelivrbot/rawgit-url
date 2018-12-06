@@ -131,14 +131,14 @@ Options:
 
 ``` bash
 $ rawgit README.md --slug 'kgryte/rawgit-url/master'
-# => https://cdn.rawgit.com/kgryte/rawgit-url/master/README.md
+# => https://cdn.jsdelivr.net/gh/kgryte/rawgit-url/README.md
 ```
 
 To infer a Github repository `slug` from a local `.git` repository, omit the `slug` option.
 
 ``` bash
 $ rawgit docs/img/eqn.svg
-# => https://cdn.rawgit.com/math-io/erf/924ab65fcb2b2a2231808ae1cecad92570902a2e/docs/img/eqn.svg
+# => https://cdn.jsdelivr.net/gh/math-io/erf@924ab65fcb2b2a2231808ae1cecad92570902a2e/docs/img/eqn.svg
 ```
 
 
